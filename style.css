@@ -1,0 +1,82 @@
+form
+{
+  font-family:Tahoma,sans-serif;
+}
+.submit-button {
+  display: block;
+  width: 565px;
+  padding: 0.75rem;
+  background:skyblue;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+form {
+  background:khaki;
+  font-family:Monaco;
+  color:black;
+  padding: 2.5rem 2.5rem;
+  border-radius: 1.5rem;
+  width: 600px;
+  margin: auto;
+  opacity: 0.9;
+}
+.control
+{ 
+ padding: 0.25rem 0.75rem;
+ background-color: white;
+ border: 2px solid black; 
+ border-radius: 0.5em;
+} 
+
+body { 
+  line-height: 1.6; 
+  background-color: navy;
+  width: 800px;
+  margin: auto;
+  color:snow;
+} 
+h1
+{
+  font-family: "Zen Dots",cursive; 
+}
+h1,#descrption
+{
+  text-align:center;
+}
+#comments{ 
+min-height: 120px;
+width: 560px;
+resize: vertical;
+border-radius: 0.5rem;
+font-size:16px;
+}
+
+#name,#email,#number
+{
+  width:560px;
+  resize:vertical;
+}
+#dropdown
+{
+  width:590px;
+}
+
+
+
+
+
+body:before{
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background-color:navy;
+  background-image: url(https://wallpaperaccess.com/full/1510467.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
